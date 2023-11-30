@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    /* display: flex; */
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 30px;
+}
+
+.header1 {
+    display: flex;
+    padding-left: 64px;
+    padding-top: 100px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    
+}
+
+.header ul li{
+    list-style: none;
+    display: flex;
+}
+.hero h2 {
+    /* width: 100%; */
+    justify-content: center;
+    font-size: 100px;
+    color: #000;
+    /* padding-left: 100px; */
+    display: flex;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.janbo {
+    display: flex;
+    column-gap: 150px;
+    justify-content: center;
+}
+
+.hero p {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}   
+a {
+    display: flex;
+    justify-content: end;
+}
+.janbo1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.janbo1 a {
+    display: flex;
+    justify-content: center;
+    border: 10px black solid;
+    background-color: #000;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 150px;   
+}
+
+.cars {
+    margin-left: 135px;
+    justify-content: center;
+}
+.menu4 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.cars2  {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    padding-top: 123px;
+
+}
+.cars3  {
+    display: flex;
+    color: aliceblue;
+    padding-top: 131px;
+    margin-left: 25px;
+}
+
+.cars3 p {
+    text-align: center;
+    margin-left: 12px;
+    display: block;
+    
+}
+
+.cars4 {
+    display: flex;
+    color: aliceblue;
+    padding-top: 80px;
+    margin-left: 25px;
+}
+
+.cars4 p {
+    display: flex;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.cars5  {
+    display: flex; 
+    justify-content: center;
+    /* align-content: normal; */
+    flex-direction: row;
+}
+/* .cars5 img {
+    display: flex;
+    justify-content: center;
+} */
+
+p {
+    order: calc( -1 (default));
+}
